@@ -49,20 +49,30 @@ li {
     display: inline-block;
     padding: 1rem 3rem;
     transition: color, background-color .3s;
+    font-size: 2rem;
+    display: inline-block;
+    margin-left: 2.4rem;
 }
 
-li:hover{
-    /*color: var(--primary-color);*/
-    background-color: var(--secondary-color);
+#Dark-light {
+  display: inline-block;
 }
+
+#Dark-light p {
+  color: white;
+  font-size: 2.4rem;
+  display: inline-block;
+  margin: 10px;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
-    top: 2px;
-    left:50px;
+    top: -1.2rem;
+    left: 1.5rem;
   }
   
   /* Hide default HTML checkbox */
