@@ -162,4 +162,30 @@ li {
     left: 50px;
  }
 
+ #biografia {
+  display: grid;
+  grid-template-columns: 20rem 1fr 20rem;
+  grid-template-rows: 1fr 10rem;
+  grid-area: content;
+  justify-items: normal ;
+  background-color: aqua;
+}
+
+.grid-item { 
+
+  text-align: center;
+  margin: 1rem;
+
+  background-color: coral;
+}
+ 
+.text {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.content {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
 
